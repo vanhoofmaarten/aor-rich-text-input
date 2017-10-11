@@ -1,17 +1,13 @@
 {
   "name": "aor-rich-text-input",
   "version": "1.0.2",
-  "description": "<RichTextInput> component for admin-on-rest, useful for editing HTML code in admin GUIs.",
+  "description":
+    "<RichTextInput> component for admin-on-rest, useful for editing HTML code in admin GUIs.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "LICENSE",
-    "*.md",
-    "lib",
-    "src"
-  ],
+  "files": ["LICENSE", "*.md", "lib", "src"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marmelab/aor-rich-text-input.git"
@@ -42,9 +38,10 @@
   "dependencies": {
     "lodash.debounce": "~4.0.8",
     "prop-types": "~15.5.7",
-    "quill": "~1.1.9"
+    "quill": "~1.1.9",
+    "react": "~15.5.4"
   },
   "peerDependencies": {
-    "react": "~15.5.4"
+    "react": "^15.0.0-0 || ^16.0.0-0"
   }
 }
